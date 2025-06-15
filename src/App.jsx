@@ -23,7 +23,6 @@ function App() {
               <Route element={<ProtectedRoute />}>
                 <Route path="/dashboard" element={<Dashboard />} />
               </Route>
-              <Route path="*" element={<LoginCard />} />
             </Routes>
           </UserProvider>
         </BrowserRouter>
